@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "a78077fd-2e49-41b5-8991-254f46d16c3e",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8525/api/auth-owner/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVjOWUwMWI4OWQxOWMxMjY4ZDBkOGQ4OCJ9.CgqueKkp_sPpCqbgol6Bw6K3bPUU3acPmvT_xeW8xek",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "anil kumar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pooja@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "citizenshipNumber",
+							"value": "64",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "9958407998",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "role",
+							"value": "SUPERADMIN",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8525/api/auth-owner/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8525",
+					"path": [
+						"api",
+						"auth-owner",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
