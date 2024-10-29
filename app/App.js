@@ -14,7 +14,7 @@ const createStoreWithMiddleware = createStore(
   reducers,
   composeEnhancers(applyMiddleware(promiseMiddleware))
 );
-
+console.log("Anil kumar");
 class App extends React.Component {
   render() {
     return (
